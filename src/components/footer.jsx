@@ -24,7 +24,7 @@ const Footer = () => {
     ]
 
     return (
-        <div name="footer" className="flex text-bold text-base w-full h-20 bg-gray-900 text-white justify-center items-center">
+        <div name="footer" className="flex text-bold text-base w-full h-20 bg-gray-900 text-pink justify-center items-center">
           <div>
             <h2 className="text-2xl">© Wendy Vu</h2>
           </div>
