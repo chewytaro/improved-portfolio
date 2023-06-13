@@ -1,11 +1,13 @@
 import React from 'react';
-import Techtopia from '../assets/portfolio/Techtopia.png';
-import WeatherApp from '../assets/portfolio/WeatherApp.png';
-import CrimeTracker from '../assets/portfolio/CrimeTracker.png';
 import JobstacleCourse from '../assets/portfolio/JobstacleCourse.png';
-import NoteTaker from '../assets/portfolio/NoteTaker.png';
-import SocialAPI from '../assets/portfolio/SocialAPI.png';
+import ClickforFlicks from '../assets/portfolio/ClickforFlicks.png'; 
 import PokeTrader from '../assets/portfolio/PokeTrader.png';
+import WorkDay from '../assets/porfolio/WorkDay.png';
+import Weather from '../assets/portfolio/Weather.png';
+import CodingQuiz from '../assets/portfolio/CodingQuiz.png';
+
+
+
 
 
 const Portfolio = () => {
@@ -13,27 +15,27 @@ const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
-            src: Techtopia,
-            demoUrl:'https://salty-escarpment-75957.herokuapp.com/',
-            codeUrl: 'https://github.com/lingeorge88/Tech_topia_MVC',
-            title: "TechTopia",
-            description: 'A tech blog utilizing NodeJS, ExpressJS and the Sequelize Package'
+            src: WorkDay,
+            demoUrl:'https://chewytaro.github.io/Work-Day-Calendar/',
+            codeUrl: 'https://github.com/chewytaro/Work-Day-Calendar',
+            title: "Work Day Scheduler",
+            description: 'A handy scheduler program that allows you to plan out your 9-5 workday!'
         },
         {
             id: 2,
-            src: WeatherApp,
-            demoUrl:'https://lingeorge88.github.io/5-day-weather-forecast/',
-            codeUrl:'https://github.com/lingeorge88/5-day-weather-forecast',
-            title: '5 Day Weather Forecast',
-            description: "A 5-day weather forecast application utilizing HTML, CSS, Bootstrap, Javascript and the OpenWeatherMap API"
+            src: Weather,
+            demoUrl:'https://chewytaro.github.io/whats-the-weather-/',
+            codeUrl:'https://github.com/chewytaro/whats-the-weather-',
+            title: 'Whats the Weather',
+            description: "Look up a 5-day weather forcast for a city that you want!"
         },
         {
             id: 3,
-            src: CrimeTracker,
-            demoUrl:'https://jgerona.github.io/crime-tracker/',
-            codeUrl:'https://github.com/jgerona/crime-tracker',
-            title: "Crime Tracker",
-            description: "A crime tracker tool utilizing the Crime Data by Zipcode API, Zippopotam.us API and Bulma CSS"
+            src: ClickforFlicks,
+            demoUrl:'https://andreaginn.github.io/Click-for-Flicks/',
+            codeUrl:'https://github.com/andreaginn/Click-for-Flicks',
+            title: "ClickforFlicks",
+            description: "A movie generator for those who are indecisive. Click the generate button to watch a random top 100 movie, with a link of where to watch!"
         },
         {
             id: 4,
@@ -41,7 +43,7 @@ const Portfolio = () => {
             demoUrl:'https://jobstacle-course.herokuapp.com/',
             codeUrl:'https://github.com/chewytaro/Jobstacle-course',
             title: "Jobstacle Course",
-            description:'An application tracking tool utilizing the HandlebarsExpressJS package.  Databse queries performed by MySQL and Sequlize'
+            description:'A job application tracking tool that allows user to keep track of all of their job applications'
         },
         {
             id: 5,
@@ -49,15 +51,15 @@ const Portfolio = () => {
             demoUrl:'https://poketraderv1.herokuapp.com/',
             codeUrl:'https://github.com/lingeorge88/Poke_Trader',
             title: "Poké Trader",
-            description: "A full stack MERN application that allows Pokemon TCG enthusiasts to connect and trade their card collections with others"
+            description: "A site that allows fellow pokemon card collectors to connect and trade!"
         },
         {
             id: 6,
-            src: SocialAPI,
-            demoUrl:'https://github.com/lingeorge88/SocialMedia_API_NoSQL',
-            codeUrl:'https://github.com/lingeorge88/SocialMedia_API_NoSQL',
-            title: 'MongoConnectFriends',
-            description:'A REST API built with MongoDB and the Mongoose Express Package'
+            src: CodingQuiz,
+            demoUrl:'https://chewytaro.github.io/Coding-Quiz/',
+            codeUrl:'https://github.com/chewytaro/Coding-Quiz',
+            title: 'Coding Quiz',
+            description:'A simple coding quiz for those starting out learning how to code!'
         },
     ]
     function handleDemoClick(demoUrl) {
@@ -72,7 +74,7 @@ const Portfolio = () => {
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
             <div className='mt-20 pb-8 sm:mt-0'>
             <p className='text-4xl font-bold inline border-b-4 border-pink-500'>Portfolio</p>
-            <p className='py-6'>Check out some of my work!</p>
+            <p className='py-6'>Here are some of my favorite projects!</p>
         </div>
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 '>
         {
