@@ -18,6 +18,7 @@
   - N/A
 
 # Usage:
+  - Link: https://chewytaro.github.io/improved-portfolio/
 <img width="1440" alt="Screenshot 2023-06-13 at 12 47 08 AM" src="https://github.com/chewytaro/improved-portfolio/assets/117787401/5ec23fb6-7fc2-441c-9176-1c8c889ca2bb">
 <img width="1440" alt="Screenshot 2023-06-13 at 12 47 17 AM" src="https://github.com/chewytaro/improved-portfolio/assets/117787401/f37e87a3-744c-428f-9f83-a11357d0b949">
 <img width="1440" alt="Screenshot 2023-06-13 at 12 47 29 AM" src="https://github.com/chewytaro/improved-portfolio/assets/117787401/4d9d948a-d0a1-4e45-baad-ce4c91e3ada2">
