@@ -2,7 +2,7 @@ import React from 'react';
 import JobstacleCourse from '../assets/portfolio/JobstacleCourse.png';
 import ClickforFlicks from '../assets/portfolio/ClickforFlicks.png'; 
 import PokeTrader from '../assets/portfolio/PokeTrader.png';
-import WorkDay from '../assets/porfolio/WorkDay.png';
+import WorkDay from '../assets/portfolio/WorkDay.png';
 import Weather from '../assets/portfolio/Weather.png';
 import CodingQuiz from '../assets/portfolio/CodingQuiz.png';
 

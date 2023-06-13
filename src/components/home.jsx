@@ -1,5 +1,5 @@
 import React from 'react';
-import HeroImage from '../assets/heroimage.png';
+import wendy from '../assets/wendy.jpg';
 import { TiArrowRightOutline}from "react-icons/ti";
 import { Link } from 'react-scroll';
 
@@ -22,7 +22,7 @@ const Home = () => {
                 </div>
             </div>
             <div>
-                <img src={HeroImage} alt="profileImage" className='rounded-2xl mx-auto w-2/3 md:w-full' style={{ overflowY: 'scroll' }}/>
+                <img src={wendy} alt="profileImage" className='rounded-2xl mx-auto w-2/3 md:w-full' style={{ overflowY: 'scroll' }}/>
             </div>
         </div>
     </div>
